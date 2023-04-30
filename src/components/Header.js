@@ -1,15 +1,6 @@
-import NavItem
- from "./NavItem";
-function Header({selectedTitle = "About Me"}) {
-    const setHighlighted = (e) => {
+import NavItem from "./NavItem";
 
-        console.log('clicked a thing');
-        let old = document.getElementById("selected-title");
-        old.removeAttribute("id");
-
-        e.target.setAttribute("id", "selected-title");
-        console.log(e.target);
-    }
+function Header({selectedTitle, setSelectedTitle}) {
 
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -24,21 +15,28 @@ function Header({selectedTitle = "About Me"}) {
                             <NavItem
                                 name="About Me"
                                 selected={selectedTitle === "About Me"}
+                                setSelectedTitle={setSelectedTitle}
                             />
                         </li>
                         <li className="nav-item">
                             <NavItem
                                 name="Portfolio"
+                                selected={selectedTitle === "Portfolio"}
+                                setSelectedTitle={setSelectedTitle}
                             />
                         </li>
                         <li className="nav-item">
                             <NavItem
                                 name="Contact Me"
+                                selected={selectedTitle === "Contact Me"}
+                                setSelectedTitle={setSelectedTitle}
                             />
                         </li>
                         <li className="nav-item">
                             <NavItem
                                 name="Resume"
+                                selected={selectedTitle === "Resume"}
+                                setSelectedTitle={setSelectedTitle}
                             />
                         </li>
                     </ul>

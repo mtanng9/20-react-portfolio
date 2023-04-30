@@ -1,13 +1,14 @@
+import { useState } from 'react';
 import Header from './Header';
 
 function Portfolio() {
-
-    const selected = () => {
-        return "About Me";
-    };
+    const [selectedTitle, setSelectedTitle] = useState('About Me');
 
     return (
-        <Header selected={selected}></Header>
+        <Header 
+            selectedTitle={selectedTitle}
+            setSelectedTitle={setSelectedTitle}
+        />
     );
 };
 
