@@ -2,6 +2,7 @@ function AboutMe() {
     return (
 
         <div id="about-me-container">
+            <h2>About Me</h2>
             <div className="description text-center">
                 <p>
                     As a Full Stack Developer with a background in Chemistry and Bioengineering, 
