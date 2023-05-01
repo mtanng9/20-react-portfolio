@@ -1,6 +1,7 @@
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import ContactMe from "./ContactMe";
+import Resume from "./Resume";
 
 function Body({selectedTitle}) {
 
@@ -11,6 +12,8 @@ function Body({selectedTitle}) {
             return <Portfolio />
         case 'Contact Me':
             return <ContactMe />
+        case 'Resume':
+            return <Resume />
         default:
             return <AboutMe />
     }
