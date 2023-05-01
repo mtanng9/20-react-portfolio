@@ -11,6 +11,36 @@ function Portfolio() {
                 deployLink="https://mvc-tech-blog.herokuapp.com/"
                 repoLink="https://github.com/mtanng9/14-mvc-tech-blog"
             />
+            <Project 
+                projectName="marketing-agency-webpage"
+                image="https://github.com/mtanng9/01-marketing-agency-webpage/raw/main/README-Screenshot.png?raw=true"
+                deployLink="https://mtanng9.github.io/01-marketing-agency-webpage/"
+                repoLink="https://github.com/mtanng9/01-marketing-agency-webpage"
+            />
+            <Project 
+                projectName="work-day-scheduler"
+                image="https://github.com/mtanng9/05-work-day-scheduler/blob/main/screen-shot.png?raw=true"
+                deployLink="https://mtanng9.github.io/05-work-day-scheduler/"
+                repoLink="https://github.com/mtanng9/05-work-day-scheduler"
+            />
+            <Project 
+                projectName="weather-dashboard"
+                image="https://github.com/mtanng9/06-weather-dashboard/blob/main/README-Screenshot.png?raw=true"
+                deployLink="https://mtanng9.github.io/06-weather-dashboard/"
+                repoLink="https://github.com/mtanng9/06-weather-dashboard"
+            />
+            <Project 
+                projectName="javascript-password-generator"
+                image="https://github.com/mtanng9/03-javascript-password-generator/raw/main/Password-Generator-Screenshot.png"
+                deployLink="https://mtanng9.github.io/03-javascript-password-generator/"
+                repoLink="https://github.com/mtanng9/03-javascript-password-generator"
+            />
+            <Project 
+                projectName="Code-Quiz"
+                image="https://github.com/mtanng9/04-Code-Quiz/blob/main/sceen-shot.png?raw=true"
+                deployLink="https://mtanng9.github.io/04-Code-Quiz/"
+                repoLink="https://github.com/mtanng9/04-Code-Quiz"
+            />
         </div>
     );
 };

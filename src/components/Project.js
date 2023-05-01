@@ -3,6 +3,7 @@ function Project({projectName, image, deployLink, repoLink}) {
     return (
         <div className="project">
             <div className="project-container" id={projectName}>
+                <h3>{projectName}</h3>
                 <img
                     className="project-img"
                     src={image}
