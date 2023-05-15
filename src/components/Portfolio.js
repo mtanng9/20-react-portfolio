@@ -41,6 +41,12 @@ function Portfolio() {
                 deployLink="https://mtanng9.github.io/04-Code-Quiz/"
                 repoLink="https://github.com/mtanng9/04-Code-Quiz"
             />
+            <Project
+                projectName="Music-Match"
+                image="https://github.com/mtanng9/04-Code-Quiz/blob/main/sceen-shot.png?raw=true"
+                deployLink="https://enigmatic-woodland-26963.herokuapp.com"
+                repoLink="hhttps://github.com/rapperthedabber/Musician-Match"
+            />
         </div>
     );
 };
